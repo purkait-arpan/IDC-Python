@@ -61,3 +61,39 @@ Windows
       ```
 
 For more details, visit the official documentation: https://docs.python.org/3/using/index.html
+
+
+-------------------------------------------------
+Anaconda (Python Distribution) - All Platforms
+-------------------------------------------------
+
+1. **Download Anaconda**
+    - Visit: https://www.anaconda.com/products/distribution
+    - Click "Download" and select your operating system (Windows, macOS, or Linux).
+
+2. **Run the Installer**
+    - **Windows:** Double-click the downloaded `.exe` file and follow the prompts.
+    - **macOS:** Open the `.pkg` or `.sh` installer and follow the instructions.
+    - **Linux:** Open a terminal, navigate to the download location, and run:
+      ```
+      bash Anaconda3-*.sh
+      ```
+
+3. **Follow Installation Prompts**
+    - Accept the license agreement.
+    - Choose the installation location.
+    - (Optional) Allow the installer to initialize Anaconda in your PATH.
+
+4. **Verify Installation**
+    - Open a new terminal or Command Prompt and run:
+      ```
+      conda --version
+      python --version
+      ```
+
+5. **(Optional) Update Conda**
+    ```
+    conda update conda
+    ```
+
+For more information, see the official Anaconda documentation: https://docs.anaconda.com/anaconda/install/
